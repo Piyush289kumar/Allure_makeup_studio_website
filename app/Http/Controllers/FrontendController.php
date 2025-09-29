@@ -50,5 +50,19 @@ class FrontendController extends Controller
         return view('layouts.pages.blogs', compact('blogLists'));
     }
 
+    public function blogDetails($slug)
+    {
+        // Fetch the blog by slug, ensure it's active
+        $blog = Blog::where('slug', $slug)->where('is_active', 1)->firstOrFail();
+
+        // Optional: fetch recent blogs for sidebar
+        $recentBlogs = Blog::where('is_active', 1)
+            ->latest('id')
+            ->take(5)
+            ->get();
+
+        return view('layouts.pages.singleBlog', compact('blog', 'recentBlogs'));
+    }
+
 
 }

@@ -1,8 +1,8 @@
-<footer class="footer-wrapper footer-layout2 bg-dark" data-bg-src="assets/img/bg/bg-fooer-2-1.jpg">
+<footer class="footer-wrapper footer-layout2 bg-dark" data-bg-src="{{ asset('assets/img/bg/bg-fooer-2-1.jpg')}}">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-12">
-                <div class="footer-logo mb-3 mb-xl-5"><a href="{{ route('home') }}"><img src="assets/img/logo-mix.png"
+                <div class="footer-logo mb-3 mb-xl-5"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo-mix.png')}}"
                             alt="Allure Makeup Studio"></a></div>
             </div>
             {{-- <div class="col-md-10 col-lg-8 col-xl-6 footer-subscribe mb-3 pb-4">
@@ -54,7 +54,7 @@
             </div>
         </div>
     </div>
-</footer><a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+</footer><a href="#" class="scrollToTop scroll-btn"><i class="fas fa-arrow-up"></i></a>
 <script src="{{ asset('assets/js/vendor/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/js/app.min.js') }}"></script>
 <script src="{{ asset('assets/js/vscustom-carousel.min.js') }}"></script>
