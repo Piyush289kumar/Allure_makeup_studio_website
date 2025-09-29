@@ -201,7 +201,7 @@
                     <div class="title-area">
                         <div class="sec-icon"><img src="assets/img/icon/sec-icon.png" alt="Section Title"></div><span
                             class="sub-title">Welcome to Hair Salon</span>
-                        <h2 class="sec-title">Get the best hair colour, Trending bridal hair at Haarino</h2>
+                        <h2 class="sec-title">Get the best hair colour, Trending bridal hair at Allure Makeup Studio</h2>
                     </div>
                 </div>
             </div>

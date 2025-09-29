@@ -969,7 +969,7 @@ textarea.form-control.is-invalid {
 }
 
 .vs-mobile-menu ul li a:before {
-    content: "";
+    content: ">";
     font-family: var(--icon-font);
     position: relative;
     left: 0;

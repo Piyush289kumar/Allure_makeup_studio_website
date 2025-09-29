@@ -13,8 +13,8 @@
         @endif
     </title>
     {{-- <meta name="author" content="Vecuro">
-    <meta name="description" content="Haarino - Barber and Salon HTML Template">
-    <meta name="keywords" content="Haarino - Barber and Salon HTML Template">
+    <meta name="description" content="Allure Makeup Studio - Barber and Salon HTML Template">
+    <meta name="keywords" content="Allure Makeup Studio - Barber and Salon HTML Template">
     <meta name="robots" content="INDEX,FOLLOW"> --}}
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
