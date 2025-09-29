@@ -26,7 +26,7 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a><i class="far fa-calendar-alt"></i> {{ $blog->created_at->format('M d, Y') }}</a>
+                                <a><i class="fas fa-calendar-alt"></i> {{ $blog->created_at->format('M d, Y') }}</a>
                             </div>
                             <h2 class="blog-title">{{ $blog->title }}</h2>
                             <div class="blog-text">{!! $blog->body !!}</div>

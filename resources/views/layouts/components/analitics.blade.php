@@ -1,4 +1,4 @@
-<div class="vs-counter-wrapper space-negative-bottom">
+<div class="vs-counter-wrapper space-negative-bottom mt-5">
     <div class="container">
         <div class="row gx-0">
             <div class="col-sm-6 col-lg-3 counter-border">

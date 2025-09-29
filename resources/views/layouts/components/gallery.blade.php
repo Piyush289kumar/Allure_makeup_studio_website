@@ -1,4 +1,4 @@
- <div class="vs-gallery-wrapper">
+ <div class="vs-gallery-wrapper my-5">
      <div class="container-fluid px-xxl-0 overflow-hidden">
          <div class="row gallery-cutted-slide">
 

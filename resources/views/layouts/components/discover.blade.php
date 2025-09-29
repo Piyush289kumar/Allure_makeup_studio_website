@@ -5,8 +5,8 @@
              <div class="offset-xl-1 col-xl-7">
                  <div class="row gx-xxl-0">
                      <div class="col-xl-10">
-                         <h2 class="sec-title text-white">Find your nearest modern salon</h2><span
-                             class="sub-title text-white">Discover best in-class salons near you</span>
+                         <h2 class="sec-title text-white">The best Luxury makeup studio in Dehradun by Allure.</h2><span
+                             class="sub-title text-white">Your Glow Begins Here</span>
                      </div>
                      <div class="col-lg-8 col-xl-11 pt-2 pt-xl-4">
                          <button type="submit" class="vs-btn">Contact Us</button>

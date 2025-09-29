@@ -2,7 +2,7 @@
         <div class="preloader-inner"><img src="assets/img/logo.png" alt="Allure Makeup Studio"> <span class="loader"></span></div>
     </div> --}}
 <div class="vs-menu-wrapper">
-    <div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+    <div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fas fa-times"></i></button>
         <div class="mobile-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo-mobile.png') }}"
                     alt="Allure Makeup Studio"></a>
         </div>

@@ -55,51 +55,9 @@
             </div>
         </div>
     </section>
-    <section class="vs-about-wrapper space-bottom">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-xl-6 mb-40 mb-lg-0">
-                    <div class="about-us-image position-relative">
-                        <div class="about-morp-shape" data-bg-color="#f9f9f9"></div><img
-                            src="assets/img/about/about-3-1.png" alt="About Image" class="w-100">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-5 offset-xxl-1 ps-xl-5 ps-xxl-0">
-                    <div class="about-media-wrap">
-                        <div class="d-md-flex gap-4 about-media text-center text-md-start">
-                            <div class="media-img mb-30 mb-md-0"><img src="assets/img/icon/ab-1-1.png" alt="about image">
-                            </div>
-                            <div class="media-body">
-                                <h4 class="mb-1 mt-n1">Hair Dryer Repairs</h4>
-                                <p>Alienum phaedrum torquato eu, vis detraxit periculaeuripidis Mei an Alienum phaedrum vis
-                                    detraxit periculis cupidatat .</p>
-                            </div>
-                        </div>
-                        <div class="d-md-flex gap-4 about-media text-center text-md-start">
-                            <div class="media-img mb-30 mb-md-0"><img src="assets/img/icon/ab-1-2.png" alt="about image">
-                            </div>
-                            <div class="media-body">
-                                <h4 class="mb-1 mt-n1">Haircut Styles</h4>
-                                <p>Alienum phaedrum torquato eu, vis detraxit periculaeuripidis Mei an Alienum phaedrum vis
-                                    detraxit periculis cupidatat .</p>
-                            </div>
-                        </div>
-                        <div class="d-md-flex gap-4 about-media text-center text-md-start">
-                            <div class="media-img mb-30 mb-md-0"><img src="assets/img/icon/ab-1-3.png" alt="about image">
-                            </div>
-                            <div class="media-body">
-                                <h4 class="mb-1 mt-n1">Beard Trim</h4>
-                                <p>Alienum phaedrum torquato eu, vis detraxit periculaeuripidis Mei an Alienum phaedrum vis
-                                    detraxit periculis cupidatat .</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    @include('layouts.components.gallery')
-    <div data-bg-src="assets/img/bg/awards-bg-1.jpg">
+    @include('layouts.components.offer')
+    {{-- @include('layouts.components.gallery') --}}
+    {{-- <div data-bg-src="assets/img/bg/awards-bg-1.jpg">
         <section class="awards-sec-wrapper space-top space-negative-bottom">
             <div class="container">
                 <div class="title-area text-center">
@@ -162,7 +120,7 @@
         <div class="pattern-text-img text-center px-2 px-md-5" data-sec-pos="bottom-half" data-pos-for="#location-sec">
             <img src="assets/img/shape/text-pattern.png" alt="Pattern Image">
         </div>
-    </div>
+    </div> --}}
     @include('layouts.components.discover')
     @include('layouts.components.testimonials')
     @include('layouts.components.services')
