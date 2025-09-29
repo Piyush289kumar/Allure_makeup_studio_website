@@ -22,31 +22,64 @@
                 <h2 class="sec-title mb-1">Get Your Next Look</h2>
                 <p class="sec-desc">Contact us online, we’ll be in touch as soon as possible…</p>
             </div>
+
             <div class="row gx-30">
                 <div class="col-lg-6 mb-30">
-                    <form action="mail.php" method="POST" class="ajax-contact">
+
+                    @if (session('success'))
+                        <script>
+                            alert("{{ session('success') }}");
+                        </script>
+                    @endif
+
+
+                    <form action="{{ route('contact.store') }}" method="POST" class="">
+                        @csrf
                         <div class="row gx-20">
-                            <div class="form-group col-12"><input type="text" class="form-control style3" name="name"
-                                    id="name" placeholder="Your Name *"></div>
-                            <div class="form-group col-12"><input type="email" class="form-control style3" name="email"
-                                    id="email" placeholder="Your Email *"></div>
-                            <div class="form-group col-12"><input type="number" class="form-control style3" name="number"
-                                    id="number" placeholder="Phone No *"></div>
-                            <div class="form-group col-12"><select name="subject" id="subject" class="form-select style3">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Service *</option>
-                                    <option value="hair Cut">Hair Cut</option>
-                                    <option value="Hair clean">Hair Clean</option>
+                            <div class="form-group col-6">
+                                <input type="text" class="form-control style3" name="first_name"
+                                    placeholder="First Name *" required>
+                            </div>
+                            <div class="form-group col-6">
+                                <input type="text" class="form-control style3" name="last_name" placeholder="Last Name *"
+                                    required>
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="email" class="form-control style3" name="email" placeholder="Your Email *"
+                                    required>
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="tel" class="form-control style3" name="phone" placeholder="Phone No *"
+                                    required>
+                            </div>
+                            <div class="form-group col-12">
+                                <select name="subject" class="form-select style3" required>
+                                    <option value="" disabled selected hidden>Service *</option>
+                                    <option value="Hair Cut">Hair Cut</option>
+                                    <option value="Hair Clean">Hair Clean</option>
                                     <option value="Head Massage">Head Massage</option>
                                     <option value="Classic Style">Classic Style</option>
-                                </select></div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control style3"
-                                    placeholder="Message *"></textarea>
+                                </select>
                             </div>
-                            <div class="form-btn col-12"><button class="vs-btn">Send Message</button></div>
+                            <div class="form-group col-12">
+                                <textarea name="message" cols="30" rows="3" class="form-control style3" placeholder="Message *" required></textarea>
+                            </div>
+                            <div class="form-btn col-12">
+                                <button type="submit" class="vs-btn">Send Message</button>
+                            </div>
                         </div>
-                        <p class="form-messages mb-0 mt-3"></p>
+
+                        {{-- success / error messages --}}
+                        @if (session('success'))
+                            <p class="form-messages mt-3 text-success">{{ session('success') }}</p>
+                        @endif
+                        @if ($errors->any())
+                            <p class="form-messages mt-3 text-danger">{{ $errors->first() }}</p>
+                        @endif
                     </form>
+
+
+
                 </div>
                 <div class="col-lg-6 mb-30">
                     <div class="vs-info-table">
