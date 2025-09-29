@@ -165,4 +165,5 @@
     </div>
     @include('layouts.components.discover')
     @include('layouts.components.testimonials')
+    @include('layouts.components.services')
 @endsection

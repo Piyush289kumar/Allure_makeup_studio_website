@@ -15,4 +15,10 @@ class FrontendController extends Controller
     {
         return view('layouts.pages.about');
     }
+
+    public function contact()
+    {
+        return view('layouts.pages.contactus');
+    }
+
 }
