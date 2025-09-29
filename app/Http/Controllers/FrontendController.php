@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use App\Models\ContactUs;
 use Illuminate\Http\Request;
 
@@ -40,5 +41,14 @@ class FrontendController extends Controller
 
         return redirect()->back()->with('success', 'Thank you! Your message has been sent.');
     }
+
+    public function blogIndex()
+    {
+        // Fetch active blogs with pagination (5 per page)
+        $blogLists = Blog::where('is_active', 1)->latest('id')->paginate(5);
+
+        return view('layouts.pages.blogs', compact('blogLists'));
+    }
+
 
 }
