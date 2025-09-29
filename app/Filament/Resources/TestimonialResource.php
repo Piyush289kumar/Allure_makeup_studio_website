@@ -31,13 +31,14 @@ class TestimonialResource extends Resource
     {
         return $form
             ->schema([
-                FileUpload::make('profile')
-                    ->image()
-                    ->imageEditor()
-                    ->imagePreviewHeight('100')
-                    ->directory('testimonials')
-                    ->label('Profile Image')
-                    ->required(),
+                // FileUpload::make('profile')
+                //     ->image()
+                //     ->imageEditor()
+                //     ->imagePreviewHeight('100')
+                //     ->directory('testimonials')
+                //     ->label('Profile Image')
+                //     // ->required()
+                //     ,
 
                 TextInput::make('name')
                     ->required()
@@ -61,7 +62,7 @@ class TestimonialResource extends Resource
     {
         return $table
             ->columns([
-                ImageColumn::make('profile')->circular(),
+                // ImageColumn::make('profile')->circular(),
                 TextColumn::make('name')->searchable()->sortable(),
                 TextColumn::make('designation')->searchable(),
                 TextColumn::make('review')->limit(50),

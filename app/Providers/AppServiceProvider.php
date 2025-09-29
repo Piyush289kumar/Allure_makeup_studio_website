@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\View;
+use App\Models\Testimonial;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +21,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Share active testimonials with all views
+        View::composer('*', function ($view) {
+            $view->with('testimonials', Testimonial::where('is_active', 1)->get());
+        });
     }
 }
