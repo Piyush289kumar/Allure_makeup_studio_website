@@ -10,4 +10,5 @@ Route::get('/', function () {
 
 Route::controller(FrontendController::class)->group(function () {
     Route::get('/', 'index')->name('home');
+    Route::get('/about', 'about')->name('about');
 });

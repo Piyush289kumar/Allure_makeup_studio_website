@@ -10,4 +10,9 @@ class FrontendController extends Controller
     {
         return view('layouts.pages.home');
     }
+
+    public function about()
+    {
+        return view('layouts.pages.about');
+    }
 }
