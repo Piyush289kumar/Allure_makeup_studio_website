@@ -39,10 +39,30 @@
                 <div class="col-auto d-none d-lg-block">
                     <div class="outline-social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            @if (!empty($appConfig->facebook_link))
+                                <li><a href="{{ $appConfig->facebook_link }}" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                            @endif
+                            @if (!empty($appConfig->google_plus_link))
+                                <li><a href="{{ $appConfig->google_plus_link }}" target="_blank"><i
+                                            class="fab fa-google-plus-g"></i></a></li>
+                            @endif
+                            @if (!empty($appConfig->twitter_link))
+                                <li><a href="{{ $appConfig->twitter_link }}" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></li>
+                            @endif
+                            @if (!empty($appConfig->linkedin_link))
+                                <li><a href="{{ $appConfig->linkedin_link }}" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                            @endif
+                            @if (!empty($appConfig->instagram_link))
+                                <li><a href="{{ $appConfig->instagram_link }}" target="_blank"><i
+                                            class="fab fa-instagram"></i></a></li>
+                            @endif
+                            @if (!empty($appConfig->youtube_link))
+                                <li><a href="{{ $appConfig->youtube_link }}" target="_blank"><i
+                                            class="fab fa-youtube"></i></a></li>
+                            @endif
                         </ul>
                     </div>
                 </div>

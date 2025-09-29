@@ -86,25 +86,18 @@
                         <table>
                             <tbody>
                                 <tr>
-                                    <td>City:</td>
-                                    <td>London</td>
-                                </tr>
-                                <tr>
                                     <td>Address:</td>
-                                    <td>170 DRURY LANE new town 245 block Covent Garden</td>
+                                    <td>{{ $appConfig->address }}</td>
                                 </tr>
                                 <tr>
                                     <td>Phone:</td>
-                                    <td><a href="tel:7032616660" class="text-reset d-inline">703-261-6660</a></td>
+                                    <td><a href="tel:91{{ $appConfig->phone }}"
+                                            class="text-reset d-inline">{{ $appConfig->phone }}</a></td>
                                 </tr>
                                 <tr>
                                     <td>Email:</td>
-                                    <td><a href="mailto:username@domain.com"
-                                            class="text-reset d-inline">username@domain.com</a></td>
-                                </tr>
-                                <tr>
-                                    <td>Opening Hours:</td>
-                                    <td>Mon-Sat: 11am - 8pm Sun: closed</td>
+                                    <td><a href="mailto:{{ $appConfig->email }}"
+                                            class="text-reset d-inline">{{ $appConfig->email }}</a></td>
                                 </tr>
                             </tbody>
                         </table>

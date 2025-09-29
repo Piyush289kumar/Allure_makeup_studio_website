@@ -1,11 +1,6 @@
 @extends('layouts.app')
-
 @section('title', 'Home')
-
 @section('content')
-
-
-
     <section class="vs-hero-wrapper position-relative">
         <div class="vs-hero-carousel" data-height="850" data-container="1900" data-slidertype="responsive"
             data-navprevnext="true">
@@ -14,20 +9,23 @@
                 <h1 style="top:289px; left:360px; font-weight:600; background-size:inherit; background-position:inherit; font-size:50px; font-family:Syne; color:#ffffff;"
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
-                    Luxury hairstyles at</h1>
+                    Allure Makeup Studio</h1>
                 <h1 style="top:353px; left:360px; font-weight:600; background-size:inherit; background-position:inherit; font-size:50px; font-family:Syne; color:#ffffff;"
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
-                    Affordable Price</h1>
-                <p style="top:425px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Open Sans; white-space:normal;"
+                    Where Beauty</h1>
+                <h1 style="top:413px; left:360px; font-weight:600; background-size:inherit; background-position:inherit; font-size:50px; font-family:Syne; color:#ffffff;"
+                    class="ls-l ls-hide-tablet ls-hide-phone"
+                    data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
+                    Meets Elegance</h1>
+                <p style="top:485px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Open Sans; white-space:normal;"
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
-                    cosmetology industry, from the beauty school to the hair salon. We&rsquo;re upgrading the
-                    hairstyling experience from start to finished style.</p><a class="ls-l ls-hide-tablet ls-hide-phone"
-                    href="contact.html" target="_self"
+                    Luxury salon services + expert on-location teams for weddings, events & shoots.</p><a
+                    class="ls-l ls-hide-tablet ls-hide-phone" href="contact.html" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:568px; left:360px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:40px; padding-bottom:0px; padding-left:40px; font-family:Syne; font-size:18px; background-color:#ad8858; color:#fff; border-radius:9999px; line-height:60px;"
-                        class="">BOOK AN APPOINTMENT</span></a> <img width="574" height="555"
+                        class="">Book Outdoor Team</span></a> <img width="574" height="555"
                     src="assets/img/hero/hero-2-shape-1.png" class="ls-l ls-hide-tablet ls-hide-phone" alt=""
                     style="top:172px; left:997px; background-size:inherit; background-position:inherit;"
                     data-ls="offsetxin:-10; delayin:600; easingin:easeOutQuint; durationout:500; easingout:easeOutQuint; parallax:true; parallaxlevel:8;">
@@ -35,6 +33,18 @@
                     class="ls-l ls-hide-tablet ls-hide-phone" alt=""
                     style="top:162px; left:982px; background-size:inherit; background-position:inherit;"
                     data-ls="offsetxin:400; delayin:200; easingin:easeOutQuint; offsetxout:400; easingout:easeOutQuint; parallax:true; parallaxlevel:4;">
+
+
+
+
+
+
+
+
+
+
+
+
                 <h1 style="top:150px; left:180px; font-weight:600; background-size:inherit; background-position:inherit; font-size:68px; font-family:Syne; color:#ffffff;"
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
@@ -309,16 +319,12 @@
     <div class="pattern-text-img text-center px-2 px-md-5" data-sec-pos="bottom-half" data-pos-for="#location-sec">
         <img src="assets/img/shape/text-pattern.png" alt="Pattern Image">
     </div>
-
     @include('layouts.components.discover')
     @include('layouts.components.pricelist')
     @include('layouts.components.gallery')
     @include('layouts.components.analitics')
     @include('layouts.components.offer')
     @include('layouts.components.blogs')
-
-
-
     <div class="instagram-gallery space">
         {{-- <div class="container">
             <div class="title-area text-center">
@@ -379,7 +385,4 @@
             </div>
         </div> --}}
     </div>
-
-
-
 @endsection
