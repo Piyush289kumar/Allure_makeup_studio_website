@@ -17,11 +17,18 @@
     <meta name="keywords" content="Allure Makeup Studio - Barber and Salon HTML Template">
     <meta name="robots" content="INDEX,FOLLOW"> --}}
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    {{-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> --}}
+    {{-- <link
+        href="https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans:wght@400;600&family=Syne:wght@600;700&display=swap"
+        rel="stylesheet"> --}}
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans:wght@400;600&family=Syne:wght@600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+
+
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
