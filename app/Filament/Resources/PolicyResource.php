@@ -11,6 +11,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
+use Illuminate\Support\Str;
 use Filament\Tables;
 use Filament\Tables\Columns\BooleanColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -31,19 +32,25 @@ class PolicyResource extends Resource
     {
         return $form
             ->schema([
+
                 TextInput::make('title')
                     ->required()
-                    ->maxLength(255),
+                    ->maxLength(255)
+                    ->live(onBlur: true) // update only when field loses focus
+                    ->afterStateUpdated(
+                        fn($state, callable $set) =>
+                        $set('slug', Str::slug($state))
+                    ),
 
                 TextInput::make('slug')
                     ->required()
                     ->unique(ignoreRecord: true)
                     ->helperText('Example: privacy-policy, terms-and-conditions')
-                    ->live(onBlur: true) // update slug when user leaves the field
-                    ->afterStateUpdated(
-                        fn($state, callable $set) =>
-                        $set('slug', \Str::slug($state)) // convert to slug format
-                    ),
+                    ->maxLength(255),
+
+                Toggle::make('is_active')
+                    ->label('Active')
+                    ->default(true),
 
                 RichEditor::make('description')
                     ->label('Content')
@@ -58,11 +65,10 @@ class PolicyResource extends Resource
                         'blockquote',
                         'codeBlock',
                     ])
-                    ->required(),
+                    ->required()
+                    ->columnSpanFull(),
 
-                Toggle::make('is_active')
-                    ->label('Active')
-                    ->default(true),
+
             ]);
     }
 

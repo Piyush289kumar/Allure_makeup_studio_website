@@ -16,4 +16,5 @@ Route::controller(FrontendController::class)->group(function () {
 
     Route::get('/blog', 'blogIndex')->name('blog.index');
     Route::get('/blog/{slug}', 'blogDetails')->name('blog.details');
+    Route::get('/policy/{slug}', 'policyDetails')->name('policy.details');
 });

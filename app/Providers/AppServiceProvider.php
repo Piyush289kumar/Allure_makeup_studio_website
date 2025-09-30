@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Models\AppConfiguration;
 use App\Models\Blog;
 use App\Models\Gallery;
+use App\Models\Policy;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use App\Models\Testimonial;
@@ -36,10 +37,13 @@ class AppServiceProvider extends ServiceProvider
         View::composer('*', function ($view) {
             $view->with('galleries', Gallery::latest('id')->get());
         });
-         // Share active Blogs with all views
+        // Share active Blogs with all views
         View::composer('*', function ($view) {
             $view->with('blogs', Blog::latest('id')->limit(6)->get());
         });
-
+        // Share active policies with all views
+        View::composer('*', function ($view) {
+            $view->with('policies', Policy::where('is_active', 1)->latest('id')->get());
+        });
     }
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\ContactUs;
+use App\Models\Policy;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -63,6 +64,16 @@ class FrontendController extends Controller
 
         return view('layouts.pages.singleBlog', compact('blog', 'recentBlogs'));
     }
+
+
+    public function policyDetails($slug)
+    {
+        // Fetch the blog by slug, ensure it's active
+        $policy = Policy::where('slug', $slug)->where('is_active', 1)->firstOrFail();
+
+        return view('layouts.pages.singlePolicy', compact('policy'));
+    }
+
 
 
 }

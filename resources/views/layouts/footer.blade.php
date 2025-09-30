@@ -50,10 +50,17 @@
                 </div>
 
 
-              <div>
-              
-                <a href=""></a>
-              </div>
+                <div>
+                    @foreach ($policies as $policy)
+                        <a href="{{ route('policy.details', $policy->slug) }}" class="text-white fw-medium mb-2">
+                            {{ $policy->title }}
+                        </a>
+                        @if (!$loop->last)
+                            |
+                        @endif
+                    @endforeach
+                </div>
+
 
                 <p class="text-white fw-medium mb-0">Copyright &copy; </i> 2025 <a class="text-white"
                         href="{{ route('home') }}"></a> - All rights reserved by <a class="text-white">Allure Makeup
