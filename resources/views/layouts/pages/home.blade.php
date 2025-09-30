@@ -18,7 +18,7 @@
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Meets Elegance</h1>
-                <p style="top:485px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Onest; white-space:normal;"
+                <p style="top:485px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Onestzz; white-space:normal;"
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Luxury salon services + expert on-location teams for weddings, events & shoots.</p><a
@@ -34,18 +34,6 @@
                     class="ls-l ls-hide-tablet ls-hide-phone" alt=""
                     style="top:162px; left:982px; background-size:inherit; background-position:inherit;"
                     data-ls="offsetxin:400; delayin:200; easingin:easeOutQuint; offsetxout:400; easingout:easeOutQuint; parallax:true; parallaxlevel:4;"> --}}
-
-
-
-
-
-
-
-
-
-
-
-
                 <h1 style="top:150px; left:180px; font-weight:600; background-size:inherit; background-position:inherit; font-size:68px; font-family:Onest; color:#ffffff;"
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
@@ -54,7 +42,7 @@
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Perfected</h1>
-                <p style="top:350px; left:190px; background-size:inherit; background-position:inherit; font-size:30px; font-family:Onest; line-height:60px; color:#d7d6d6; width:780px; white-space:normal;"
+                <p style="top:350px; left:190px; background-size:inherit; background-position:inherit; font-size:30px; font-family:Onestzz; line-height:60px; color:#d7d6d6; width:780px; white-space:normal;"
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Step into Allure, where your wedding day vision comes to life. From pre-bridal rituals to flawless
@@ -70,8 +58,6 @@
                 <img width="574" height="555" src="assets/img/hero/hero-2-1.png" class="ls-l ls-hide-desktop"
                     alt="" style="top:162px; left:1170px; background-size:inherit; background-position:inherit;"
                     data-ls="offsetxin:400; delayin:200; easingin:easeOutQuint; offsetxout:400; easingout:easeOutQuint;"> --}}
-
-
                 <h1 style="top:150px; left:150px; font-weight:600; background-size:inherit; background-position:inherit; font-size:95px; font-family:Onest; color:#ffffff;"
                     class="ls-l ls-hide-desktop ls-hide-tablet"
                     data-ls="offsetxin:-100; durationin:1500; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
@@ -94,7 +80,7 @@
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Perfected</h1>
-                <p style="top:425px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Onest; white-space:normal;"
+                <p style="top:425px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Onestzz; white-space:normal;"
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Step into Allure, where your wedding day vision comes to life. From pre-bridal rituals to flawless
@@ -103,7 +89,6 @@
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:568px; left:360px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:40px; padding-bottom:0px; padding-left:40px; font-family:Onest; font-size:18px; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:60px;"
                         class="">Schedule a Consultation</span></a>
-
                 {{-- <img width="574" height="555"
                     src="assets/img/hero/hero-2-shape-1.png" class="ls-l ls-hide-tablet ls-hide-phone" alt=""
                     style="top:172px; left:997px; background-size:inherit; background-position:inherit;"
@@ -120,7 +105,7 @@
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Gifts of Care</h1>
-                <p style="top:350px; left:190px; background-size:inherit; background-position:inherit; font-size:30px; font-family:Onest; line-height:60px; color:#d7d6d6; width:780px; white-space:normal;"
+                <p style="top:350px; left:190px; background-size:inherit; background-position:inherit; font-size:30px; font-family:Onestzz; line-height:60px; color:#d7d6d6; width:780px; white-space:normal;"
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     cosmetology industry, from the beauty school to the hair salon. We&rsquo;re upgrading the
@@ -158,7 +143,7 @@
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     and Felt</h1>
-                <p style="top:425px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Onest; white-space:normal;"
+                <p style="top:425px; left:360px; background-size:inherit; background-position:inherit; font-size:18px; line-height:32px; color:#d7d6d6; width:460px; font-family:Onestzz; white-space:normal;"
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Allure Makeup Studio brings luxury, sophistication, and expert artistry to Dehradun. Whether it’s a
@@ -184,7 +169,7 @@
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Beauty & health</h1>
-                <p style="top:350px; left:190px; background-size:inherit; background-position:inherit; font-size:30px; font-family:Onest; line-height:60px; color:#d7d6d6; width:780px; white-space:normal;"
+                <p style="top:350px; left:190px; background-size:inherit; background-position:inherit; font-size:30px; font-family:Onestzz; line-height:60px; color:#d7d6d6; width:780px; white-space:normal;"
                     class="ls-l ls-hide-desktop ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     cosmetology industry, from the beauty school to the hair salon. We&rsquo;re upgrading the
@@ -226,9 +211,10 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6 col-xl-6 mb-40 mb-lg-0">
-                    <div class="about-us-image position-relative">
+                    <div class="about-us-image position-relative" style="border-radius: 20px !important;">
                         <div class="about-morp-shape" data-bg-color="#f9f9f9"></div><img
-                            src="assets/img/about/about-3-1.png" alt="About Image" class="w-100">
+                            src="assets/img/about/about-3-1.png" alt="About Image" class="w-100"
+                            style="border-radius: 20px;">
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-5 offset-xxl-1 ps-xl-5 ps-xxl-0">
@@ -270,125 +256,38 @@
     <section class="what-we-do-wrapper space-negative-top space-negative-bottom">
         <div class="container">
             <div class="row vs-carousel" data-slide-show="4" data-sm-slide-show="2" data-xs-slide-show="1">
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-1.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Bridal Makeup</a>
-                            </h3>
+                @php
+                    $process = [
+                        ['Bridal Makeup', '1.png'],
+                        ['Party & Occasion Makeup', '2.png'],
+                        ['Editorial & Photoshoot Makeup', '3.png'],
+                        ['Brows & Lashes', '4.png'],
+                        ['Hair Styling', '5.png'],
+                        ['Nails & Finishing Touches', '6.png'],
+                        ['Skincare &  Makeup Prep', '7.png'],
+                        ['Corporate & Event Services', '8.png'],
+                        ['Workshops & Lessons', '9.png'],
+                    ];
+                @endphp
+                @foreach ($process as $item)
+                    <div class="col-xl-3">
+                        <div class="process-box">
+                            <div class="process-img">
+                                <span class="process-border"></span>
+                                <span class="process-border border2"></span>
+                                <img src="{{ asset('assets/img/process/' . $item[1]) }}" alt="{{ $item[0] }}"
+                                    class="w-100">
+                            </div>
+                            <div class="process-content">
+                                <h3 class="process-title">
+                                    <a class="text-reset" href="{{ route('about') }}">
+                                        {{ ucfirst($item[0]) }}
+                                    </a>
+                                </h3>
+                            </div>
                         </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
                     </div>
-                </div>
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-2.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Party & Occasion Makeup</a>
-                            </h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-3.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Editorial & Photoshoot
-                                    Makeup</a></h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-4.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Hair Styling</a>
-                            </h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-5.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Skincare & Makeup Prep</a>
-                            </h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-
-
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-5.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Brows & Lashes</a>
-                            </h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-
-
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-5.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Nails & Finishing
-                                    Touches</a>
-                            </h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-
-
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-5.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Workshops & Lessons</a>
-                            </h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-
-                <div class="col-xl-3">
-                    <div class="process-box">
-                        <div class="process-img"><span class="process-border"></span> <span
-                                class="process-border border2"></span> <img src="assets/img/process/process-1-5.jpg"
-                                alt="Process image" class="w-100"></div>
-                        <div class="process-content">
-                            <h3 class="process-title"><a class="text-reset" href="about.html">Corporate & Event
-                                    Services</a>
-                            </h3>
-                        </div>
-                        {{-- <a href="about.html" class="process-btn"><i class="fas fa-chevron-right"></i></a> --}}
-                    </div>
-                </div>
-
-
+                @endforeach
             </div>
         </div>
     </section>

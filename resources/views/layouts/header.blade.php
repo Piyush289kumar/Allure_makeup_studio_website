@@ -3,8 +3,9 @@
     </div> --}}
 <div class="vs-menu-wrapper">
     <div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fas fa-times"></i></button>
-        <div class="mobile-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo-mobile.png') }}"
-                    alt="Allure Makeup Studio"></a>
+        <div class="mobile-logo"><a href="{{ route('home') }}">
+        <img src="{{ asset('assets/img/logo-mobile.png') }}"
+                    alt="Allure Makeup Studio" style="width: 20px !important;"></a>
         </div>
         <div class="vs-mobile-menu">
             <ul>
@@ -69,12 +70,12 @@
                 </div>
                 <div class="col-9 col-sm-auto">
                     <div class="header-logo"><a href="{{ route('home') }}"><img
-                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio"></a>
+                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio" style="width: 330px;"></a>
                     </div>
                 </div>
                 <div class="col col-sm-auto text-end">
                     <button class="vs-menu-toggle d-inline-block d-md-none">
-                        {{-- <i class="fas fa-bars"></i> --}}
+                        <i class="fas fa-bars"></i>
                     </button>
                     <div class="header-btn d-none d-md-block"><a href="{{ route('contact') }}" class="text-white">
                             {{-- <i class="fal fa-map-marker-alt"></i> --}}

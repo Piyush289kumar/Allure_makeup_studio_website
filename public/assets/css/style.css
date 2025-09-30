@@ -2139,7 +2139,7 @@ a.text-theme:hover,
 }
 
 [data-overlay=black]:before {
-    background-color: var(--black-color)
+    /* background-color: var(--black-color) */
 }
 
 [data-opacity="1"]:before {
