@@ -25,8 +25,7 @@
                             class="inner"></span> <span class="hidden"></span></span></button>
             </div>
             <div class="col-auto d-none d-md-block">
-                <p class="text-white mb-0"><u class="fw-semibold">Test</u> - Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit.</p>
+                <p class="text-white mb-0"><u class="fw-semibold"></u>Best Makeup Studio Dehradun.</p>
             </div>
             <div class="col-auto"><a href="cart.html" class="cart-icon text-white">
                     {{-- <i class="fal fa-shopping-cart"></i> --}}
