@@ -1,9 +1,9 @@
-<footer class="footer-wrapper footer-layout2 bg-dark" data-bg-src="{{ asset('assets/img/bg/bg-fooer-2-1.jpg')}}">
+<footer class="footer-wrapper footer-layout2 bg-dark" data-bg-src="{{ asset('assets/img/bg/bg-fooer-2-1.jpg') }}">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-12">
-                <div class="footer-logo mb-3 mb-xl-5"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo-mix.png')}}"
-                            alt="Allure Makeup Studio"></a></div>
+                <div class="footer-logo mb-3 mb-xl-5"><a href="{{ route('home') }}"><img
+                            src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio"></a></div>
             </div>
             {{-- <div class="col-md-10 col-lg-8 col-xl-6 footer-subscribe mb-3 pb-4">
                 <h2 class="fs-26 text-white mb-4">Sign Up To Our Newsletter</h2>
@@ -48,9 +48,18 @@
                         @endif
                     </ul>
                 </div>
+
+
+              <div>
+              
+                <a href=""></a>
+              </div>
+
                 <p class="text-white fw-medium mb-0">Copyright &copy; </i> 2025 <a class="text-white"
                         href="{{ route('home') }}"></a> - All rights reserved by <a class="text-white">Allure Makeup
                         Studio</a>.</p>
+                <p class="text-white fw-medium mb-0">Developed by </i><a class="text-white"
+                        href="https://vipprow.com">Vipprow.</a></p>
             </div>
         </div>
     </div>
