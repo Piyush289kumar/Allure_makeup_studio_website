@@ -20,6 +20,13 @@ class FrontendController extends Controller
         return view('layouts.pages.about');
     }
 
+    public function services()
+    {
+        return view('layouts.pages.services');
+    }
+
+
+    
     public function contact()
     {
         return view('layouts.pages.contactus');

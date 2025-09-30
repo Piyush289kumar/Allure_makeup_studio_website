@@ -11,6 +11,7 @@ Route::get('/', function () {
 Route::controller(FrontendController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::get('/about', 'about')->name('about');
+    Route::get('/services', 'services')->name('services');
     Route::get('/contact', 'contact')->name('contact');
     Route::post('/contact', 'contactstore')->name('contact.store');
 
