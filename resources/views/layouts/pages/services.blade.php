@@ -7,7 +7,7 @@
                 <h1 class="breadcumb-title">Our Services</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
                         <li class="active">Our Services</li>
                     </ul>
                 </div>

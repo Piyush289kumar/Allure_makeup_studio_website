@@ -8,7 +8,7 @@
                 <h1 class="breadcumb-title">Contact Us</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{route('home')}}">Home</a></li>
                         <li class="active">Contact Us</li>
                     </ul>
                 </div>

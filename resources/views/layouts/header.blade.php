@@ -27,7 +27,7 @@
             <div class="col-auto d-none d-md-block">
                 <p class="text-white mb-0"><u class="fw-semibold"></u>Best Makeup in Studio Dehradun.</p>
             </div>
-            <div class="col-auto"><a href="cart.html" class="cart-icon text-white">
+            <div class="col-auto"><a class="cart-icon text-white">
                     {{-- <i class="fal fa-shopping-cart"></i> --}}
                     <span class="badge bg-theme"></span></a></div>
         </div>
