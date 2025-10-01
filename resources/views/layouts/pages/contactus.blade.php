@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('title', 'Contact Us')
 @section('content')
-
     <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-1.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content text-center">
@@ -22,17 +21,13 @@
                 <h2 class="sec-title mb-1">Get Your Next Look</h2>
                 <p class="sec-desc">Contact us online, we’ll be in touch as soon as possible…</p>
             </div>
-
             <div class="row gx-30">
                 <div class="col-lg-6 mb-30">
-
                     @if (session('success'))
                         <script>
                             alert("{{ session('success') }}");
                         </script>
                     @endif
-
-
                     <form action="{{ route('contact.store') }}" method="POST" class="">
                         @csrf
                         <div class="row gx-20">
@@ -68,7 +63,6 @@
                                 <button type="submit" class="vs-btn">Send Message</button>
                             </div>
                         </div>
-
                         {{-- success / error messages --}}
                         @if (session('success'))
                             <p class="form-messages mt-3 text-success">{{ session('success') }}</p>
@@ -77,9 +71,6 @@
                             <p class="form-messages mt-3 text-danger">{{ $errors->first() }}</p>
                         @endif
                     </form>
-
-
-
                 </div>
                 <div class="col-lg-6 mb-30">
                     <div class="vs-info-table">
@@ -108,8 +99,9 @@
     </section>
     <div class="vs-map-wrapper space-bottom">
         <div class="container">
-            <div class="google-map ratio ratio-16x9"><iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193602.52247371394!2d-74.06965844043218!3d40.695129602530734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1628485834355!5m2!1sen!2sbd"
+            <div class="google-map ratio ratio-16x9">
+            <iframe
+                    src="https://www.google.com/maps/embed/v1/place?q=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FFountain%2BChowk%2C%2BNehru%2BColony%2C%2BDharampur%2C%2BDehradun%2C%2BUttarakhand%2B248001%2F%4030.3018806%2C78.0534354%2C17z%2Fdata%3D!4m10!1m2!2m1!1sNehru%2BColony%2C%2Bnear%2BFountain%2BChowk%2C%2BDehradun!3m6!1s0x390929a9b591b525%3A0x2ff6020c9ec07b65!8m2!3d30.3022668!4d78.0568796!15sCitOZWhydSBDb2xvbnksIG5lYXIgRm91bnRhaW4gQ2hvd2ssIERlaHJhZHVukgERY29tcG91bmRfYnVpbGRpbmfgAQA!16s%252Fg%252F11lmpb9zs5%3Fentry%3Dttu%26g_ep%3DEgoyMDI1MDkyOC4wIKXMDSoASAFQAw%253D%253D&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     width="800" height="565" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
         </div>
     </div>
