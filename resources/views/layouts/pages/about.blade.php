@@ -7,7 +7,7 @@
                 <h1 class="breadcumb-title">About Us</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="{{route('home')}}">Home</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
                         <li class="active">About Us</li>
                     </ul>
                 </div>
@@ -21,33 +21,24 @@
                     <div class="transform-banner mb-30"><img src="assets/img/about/about-1-1.jpg" alt="ABout Image"></div>
                 </div>
                 <div class="col-lg-6 col-xl-5">
-                    <div class="about-content"><span class="sub-title">100% Natural Treatment</span>
+                    <div class="about-content">
+                        {{-- <span class="sub-title">100% Natural Treatment</span> --}}
                         <div class="row justify-content-center">
                             <div class="col-lg-12 col-md-10 col-sm-9">
-                                <h2 class="sec-title">Trendy and award winning salons</h2>
+                                <h2 class="sec-title">About Allure Makeup Studio</h2>
                             </div>
                             <div class="col-lg-12 col-md-9 col-sm-11">
-                                <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis a is in mei. Mei an
-                                    periculaeuripidis, hincartem ei est Alienum drum torquatos nec eu, vis detraxit.</p>
-                            </div>
-                            <div class="col-lg-12 col-md-8 col-sm-10 pt-xl-2">
-                                <div class="row">
-                                    <div class="col-sm-6 col-lg-6 col-xl-6 mb-20">
-                                        <h3 class="fw-semibold fs-22 mb-1 mb-lg-2">Contact</h3>
-                                        <p class="mb-1"><a class="text-inherit d-block" href="tel:2129799800">(212)
-                                                979-9800</a><a class="text-inherit"
-                                                href="mailto:username@domain.com">username@domain.com</a></p>
-                                        <p class="mb-0"><span class="d-block">336 E 5th Street</span><span>New York, NY
-                                                10003</span></p>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-6 col-xl-6 mb-20">
-                                        <h3 class="fw-semibold fs-22 mb-1 mb-lg-2">Hours</h3>
-                                        <p class="mb-1"><span class="d-block">Monday to Friday</span><span> 11am –
-                                                8pm</span></p>
-                                        <p class="mb-0"><span class="d-block">Saturday to Sunday</span><span> 10am –
-                                                6pm</span></p>
-                                    </div>
-                                </div>
+                                <p>Allure Makeup Studio is Dehradun’s premier destination for luxury beauty and makeover
+                                    services. Known for its artistry, precision, and commitment to excellence, Allure has
+                                    become the preferred choice for brides, celebrities, and beauty enthusiasts.
+                                    At Allure, we believe makeup is not just about looking good—it’s about feeling
+                                    confident, radiant, and empowered. Our team of highly trained makeup artists and
+                                    hairstylists specialize in delivering flawless transformations tailored to your
+                                    personality, skin type, and occasion.
+                                    From bridal makeovers, party makeup, and fashion shoots to skin treatments, hair
+                                    styling, and nail art, we offer a complete beauty experience under one roof. Every
+                                    service is crafted with high-end products, personalized consultation, and attention to
+                                    detail—ensuring that you shine in your own unique way.</p>
                             </div>
                         </div>
                     </div>
@@ -121,6 +112,45 @@
             <img src="assets/img/shape/text-pattern.png" alt="Pattern Image">
         </div>
     </div> --}}
+    <section class="vs-about-wrapper space-top space-negative-bottom">
+        <div class="container">
+            <div class="row text-center text-lg-start align-items-center justify-content-between flex-row-reverse">
+                <div class="mt-5"></div>
+                <div class="col-lg-6 col-xl-5">
+                    <div class="about-content">
+                        {{-- <span class="sub-title">100% Natural Treatment</span> --}}
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 col-md-10 col-sm-9">
+                                <h2 class="sec-title">Mission</h2>
+                            </div>
+                            <div class="col-lg-12">
+                                <p>At Allure Makeup Studio, our mission is to redefine beauty by blending luxury,
+                                    creativity, and precision. We aim to empower every client with confidence and elegance
+                                    through personalized makeup, hair, and skincare services—using premium products, expert
+                                    techniques, and a warm, welcoming experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5">
+                    <div class="about-content">
+                        {{-- <span class="sub-title">100% Natural Treatment</span> --}}
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 col-md-10 col-sm-9">
+                                <h2 class="sec-title">Vision</h2>
+                            </div>
+                            <div class="col-lg-12">
+                                <p>Our vision is to become the most trusted luxury makeup and beauty destination in Dehradun
+                                    and beyond, recognized for innovation, professionalism, and artistry. We aspire to set
+                                    new standards in the beauty industry by offering trend-setting looks, world-class
+                                    services, and nurturing long-term relationships with our clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     @include('layouts.components.discover')
     @include('layouts.components.testimonials')
     @include('layouts.components.services')

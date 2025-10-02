@@ -22,7 +22,7 @@
                     class="ls-l ls-hide-tablet ls-hide-phone"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Luxury salon services + expert on-location teams for weddings, events & shoots.</p><a
-                    class="ls-l ls-hide-tablet ls-hide-phone" href="{{route('contact')}}" target="_self"
+                    class="ls-l ls-hide-tablet ls-hide-phone" href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:568px; left:360px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:40px; padding-bottom:0px; padding-left:40px; font-family:Onest; font-size:18px; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:60px;"
                         class="">Book Outdoor Team</span></a>
@@ -47,7 +47,7 @@
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Step into Allure, where your wedding day vision comes to life. From pre-bridal rituals to flawless
                     makeup and hair, we craft looks that last, so you can shine with elegance and confidence on your special
-                    day.</p><a class="ls-l ls-hide-desktop ls-hide-phone" href="{{route('contact')}}" target="_self"
+                    day.</p><a class="ls-l ls-hide-desktop ls-hide-phone" href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:600px; left:180px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:60px; padding-bottom:0px; padding-left:60px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:100px; font-size:30px;"
                         class="">BOOK AN APPOINTMENT</span></a>
@@ -65,7 +65,7 @@
                 <h1 style="top:300px; left:150px; font-weight:600; background-size:inherit; background-position:inherit; font-size:95px; font-family:Onest; color:#ffffff;"
                     class="ls-l ls-hide-desktop ls-hide-tablet"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
-                    and Felt</h1><a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{route('contact')}}" target="_self"
+                    and Felt</h1><a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:500px; left:150px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:80px; padding-bottom:0px; padding-left:80px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:130px; font-size:50px;"
                         class="">BOOK AN APPOINTMENT</span></a>
@@ -85,7 +85,7 @@
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Step into Allure, where your wedding day vision comes to life. From pre-bridal rituals to flawless
                     makeup and hair, we craft looks that last, so you can shine with elegance and confidence on your special
-                    day.</p><a class="ls-l ls-hide-tablet ls-hide-phone" href="{{route('contact')}}" target="_self"
+                    day.</p><a class="ls-l ls-hide-tablet ls-hide-phone" href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:568px; left:360px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:40px; padding-bottom:0px; padding-left:40px; font-family:Onest; font-size:18px; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:60px;"
                         class="">Schedule a Consultation</span></a>
@@ -110,7 +110,7 @@
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     cosmetology industry, from the beauty school to the hair salon. We&rsquo;re upgrading the
                     hairstyling experience from start to finished style.</p><a class="ls-l ls-hide-desktop ls-hide-phone"
-                    href="{{route('contact')}}" target="_self"
+                    href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:600px; left:180px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:60px; padding-bottom:0px; padding-left:60px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:100px; font-size:30px;"
                         class="">BOOK AN APPOINTMENT</span></a>
@@ -128,7 +128,8 @@
                 <h1 style="top:300px; left:150px; font-weight:600; background-size:inherit; background-position:inherit; font-size:95px; font-family:Onest; color:#ffffff;"
                     class="ls-l ls-hide-desktop ls-hide-tablet"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
-                    Gifts of Care</h1><a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{route('contact')}}" target="_self"
+                    Gifts of Care</h1><a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{ route('contact') }}"
+                    target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:500px; left:150px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:80px; padding-bottom:0px; padding-left:80px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:130px; font-size:50px;"
                         class="">BOOK AN APPOINTMENT</span></a>
@@ -148,8 +149,8 @@
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Allure Makeup Studio brings luxury, sophistication, and expert artistry to Dehradun. Whether it’s a
                     glamorous party look, editorial photoshoot, or signature bridal transformation, we ensure every detail
-                    celebrates your unique style.</p><a class="ls-l ls-hide-tablet ls-hide-phone" href="{{route('contact')}}"
-                    target="_self"
+                    celebrates your unique style.</p><a class="ls-l ls-hide-tablet ls-hide-phone"
+                    href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:608px; left:360px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:40px; padding-bottom:0px; padding-left:40px; font-family:Onest; font-size:18px; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:60px;"
                         class="">Explore Our Services</span></a>
@@ -174,7 +175,7 @@
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     cosmetology industry, from the beauty school to the hair salon. We&rsquo;re upgrading the
                     hairstyling experience from start to finished style.</p><a class="ls-l ls-hide-desktop ls-hide-phone"
-                    href="{{route('contact')}}" target="_self"
+                    href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:600px; left:180px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:60px; padding-bottom:0px; padding-left:60px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:100px; font-size:30px;"
                         class="">BOOK AN APPOINTMENT</span></a> <img width="574" height="555"
@@ -191,7 +192,8 @@
                 <h1 style="top:300px; left:150px; font-weight:600; background-size:inherit; background-position:inherit; font-size:95px; font-family:Onest; color:#ffffff;"
                     class="ls-l ls-hide-desktop ls-hide-tablet"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
-                    Beauty & health</h1><a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{route('contact')}}" target="_self"
+                    Beauty & health</h1><a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{ route('contact') }}"
+                    target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
                         style="top:500px; left:150px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:80px; padding-bottom:0px; padding-left:80px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:130px; font-size:50px;"
                         class="">BOOK AN APPOINTMENT</span></a>
@@ -253,7 +255,8 @@
             </div>
         </div>
     </section>
-    <section class="what-we-do-wrapper space-negative-top space-negative-bottom">
+
+    {{-- <section class="what-we-do-wrapper space-negative-top space-negative-bottom">
         <div class="container">
             <div class="row vs-carousel" data-slide-show="4" data-sm-slide-show="2" data-xs-slide-show="1">
                 @php
@@ -290,7 +293,10 @@
                 @endforeach
             </div>
         </div>
-    </section>
+    </section> --}}
+
+    @include('layouts.components.services')
+
     <div class="pattern-text-img text-center px-2 px-md-5" data-sec-pos="bottom-half" data-pos-for="#location-sec">
         {{-- <img src="assets/img/shape/text-pattern.png" alt="Pattern Image"> --}}
     </div>

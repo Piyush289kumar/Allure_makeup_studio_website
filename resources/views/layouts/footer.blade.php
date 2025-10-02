@@ -3,7 +3,7 @@
         <div class="row justify-content-center text-center">
             <div class="col-12">
                 <div class="footer-logo mb-3 mb-xl-5"><a href="{{ route('home') }}"><img
-                            src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio"></a></div>
+                            src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio" style="width: 250px;"></a></div>
             </div>
             {{-- <div class="col-md-10 col-lg-8 col-xl-6 footer-subscribe mb-3 pb-4">
                 <h2 class="fs-26 text-white mb-4">Sign Up To Our Newsletter</h2>

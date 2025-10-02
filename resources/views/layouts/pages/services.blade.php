@@ -14,8 +14,44 @@
             </div>
         </div>
     </div>
-    @include('layouts.components.services')
-    @include('layouts.components.offer')
-    @include('layouts.components.discover')
-    @include('layouts.components.testimonials')
+    <section class="vs-blog-wrapper space-top space-negative-bottom">
+        <div class="container">
+            @foreach ($services as $blog)
+                <div class="blog-fliped">
+                    <div class="row justify-content-between gx-xl-0">
+                        <div class="col-lg-6 col-xl-5 align-self-center order-1 order-lg-0">
+                            <div class="blog-content">
+                                <div class="meta-box">
+                                    <a href="{{ route('service.details', $blog->slug) }}">
+                                        <i class="far fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}
+                                    </a>
+                                    {{-- Optionally show comment count if available --}}
+                                    {{-- <a href="#"><i class="fas fa-comment-alt"></i>{{ $blog->comments_count ?? 0 }}</a> --}}
+                                </div>
+                                <h2 class="blog-title fw-semibold">
+                                    <a href="{{ route('service.details', $blog->slug) }}">{{ $blog->title }}</a>
+                                </h2>
+                                <p class="blog-text">{{ Str::limit(strip_tags($blog->body), 150) }}</p>
+                                <a href="{{ route('service.details', $blog->slug) }}" class="icon-btn">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-0 order-lg-1">
+                            <div class="blog-img">
+                                <a href="{{ route('service.details', $blog->slug) }}">
+                                    <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}"
+                                        class="w-100">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+            {{-- Pagination --}}
+            <div class="vs-pagination pb-30" style="display: flex; justify-content: center;">
+                {{ $blogLists->links('pagination::bootstrap-4') }}
+            </div>
+        </div>
+    </section>
 @endsection

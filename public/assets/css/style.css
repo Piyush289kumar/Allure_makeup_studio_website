@@ -3300,7 +3300,7 @@ a.text-theme:hover,
         padding: 29px 0
     }
     .header-transparent {
-        padding: 19px 0
+        padding: 0px 0
     }
 }
 
@@ -9423,7 +9423,7 @@ table.woocommerce-grouped-product-list.group_table td {
 }
 
 .vs-trends-box .trends-header {
-    background-color: rgba(173, 136, 88, .9);
+    background-color: #fec624;
     position: absolute;
     top: 0;
     left: 10px;
@@ -9451,7 +9451,7 @@ table.woocommerce-grouped-product-list.group_table td {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(173, 136, 88, .9);
+    background-color: #fec624;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9556,7 +9556,7 @@ table.woocommerce-grouped-product-list.group_table td {
     top: 0;
     width: 100%;
     height: 50%;
-    background-color: rgba(173, 136, 88, .9);
+    background-color: #fec624;
     z-index: 1;
     transition: all ease .4s;
     transform: scale(0);

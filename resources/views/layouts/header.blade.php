@@ -25,7 +25,7 @@
                             class="inner"></span> <span class="hidden"></span></span></button>
             </div>
             <div class="col-auto d-none d-md-block">
-                <p class="text-white mb-0"><u class="fw-semibold"></u>Best Makeup in Studio Dehradun.</p>
+                <p class="text-white mb-0"><u class="fw-semibold"></u>The Best Makeup Studio in Dehradun.</p>
             </div>
             <div class="col-auto"><a class="cart-icon text-white">
                     {{-- <i class="fal fa-shopping-cart"></i> --}}
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-9 col-sm-auto">
                     <div class="header-logo"><a href="{{ route('home') }}"><img
-                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio" style="width: 330px;"></a>
+                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio" style="width: 150px;"></a>
                     </div>
                 </div>
                 <div class="col col-sm-auto text-end">

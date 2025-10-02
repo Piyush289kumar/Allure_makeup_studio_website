@@ -22,7 +22,10 @@ class FrontendController extends Controller
 
     public function services()
     {
-        return view('layouts.pages.services');
+         // Fetch active blogs with pagination (5 per page)
+        $blogLists = Blog::where('is_active', 1)->latest('id')->paginate(5);
+
+        return view('layouts.pages.services', compact('blogLists'));
     }
 
 
