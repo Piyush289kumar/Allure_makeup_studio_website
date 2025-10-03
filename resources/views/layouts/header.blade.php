@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-9 col-sm-auto">
                     <div class="header-logo"><a href="{{ route('home') }}"><img
-                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio" style="width: 150px;"></a>
+                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio" id="webLogo"></a>
                     </div>
                 </div>
                 <div class="col col-sm-auto text-end">
