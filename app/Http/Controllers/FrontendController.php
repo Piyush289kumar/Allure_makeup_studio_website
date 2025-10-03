@@ -28,8 +28,6 @@ class FrontendController extends Controller
         return view('layouts.pages.services', compact('blogLists'));
     }
 
-
-
     public function contact()
     {
         return view('layouts.pages.contactus');
@@ -76,7 +74,6 @@ class FrontendController extends Controller
         return view('layouts.pages.singleBlog', compact('blog', 'recentBlogs'));
     }
 
-
     public function policyDetails($slug)
     {
         // Fetch the blog by slug, ensure it's active
@@ -84,7 +81,6 @@ class FrontendController extends Controller
 
         return view('layouts.pages.singlePolicy', compact('policy'));
     }
-
 
     public function serviceDetails($slug)
     {
@@ -98,9 +94,5 @@ class FrontendController extends Controller
 
         return view('layouts.pages.singleService', compact('blog', 'recentBlogs'));
     }
-
-
-
-
 
 }
