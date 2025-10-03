@@ -18,7 +18,8 @@
                                     <h4 class="trends-title"><a class="text-reset"
                                             href="{{ route('service.details', $service->slug) }}">{{ $service->title }}</a>
                                     </h4>
-                                    <p class="trends-text">{{ $service->short_description }}</p>
+                                    <p class="trends-text">
+                                        {{ Str::limit(strip_tags($service->short_description), 80, '...') }}</p>
                                     {{-- <div class="blog-text text-white" style="color: #fff;">{!! $service->body !!}</div> --}}
                                 </div>
                             </a>
