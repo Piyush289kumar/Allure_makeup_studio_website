@@ -25,9 +25,9 @@
                             <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
                         </div>
                         <div class="blog-content">
-                            <div class="blog-meta">
+                            {{-- <div class="blog-meta">
                                 <a><i class="fas fa-calendar-alt"></i> {{ $blog->created_at->format('M d, Y') }}</a>
-                            </div>
+                            </div> --}}
                             <h2 class="blog-title">{{ $blog->title }}</h2>
                             <div class="blog-text">{!! $blog->body !!}</div>
                         </div>
@@ -53,12 +53,12 @@
                                                     {{ $recent->title }}
                                                 </a>
                                             </h4>
-                                            <div class="recent-post-meta">
+                                            {{-- <div class="recent-post-meta">
                                                 <a href="{{ route('service.details', $recent->slug) }}">
                                                     <i class="fal fa-calendar-alt"></i>
                                                     {{ $recent->created_at->format('M d, Y') }}
                                                 </a>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 @endforeach
