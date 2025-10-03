@@ -4,8 +4,8 @@
 <div class="vs-menu-wrapper">
     <div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fas fa-times"></i></button>
         <div class="mobile-logo"><a href="{{ route('home') }}">
-        <img src="{{ asset('assets/img/logo-mobile.png') }}"
-                    alt="Allure Makeup Studio" style="width: 20px !important;"></a>
+                <img src="{{ asset('assets/img/logo-mobile.png') }}" alt="Allure Makeup Studio"
+                    style="width: 20px !important;"></a>
         </div>
         <div class="vs-mobile-menu">
             <ul>
@@ -62,15 +62,20 @@
                             @endif
                             @if (!empty($appConfig->youtube_link))
                                 <li><a href="{{ $appConfig->youtube_link }}" target="_blank">
-                                <i class="fas fa-map-marker-alt"></i>
-                                </a></li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </a></li>
+                            @endif
+                            @if ($appConfig->whatsapp_link)
+                                <li><a href="{{ $appConfig->whatsapp_link }}" target="_blank"><i
+                                            class="fab fa-whatsapp"></i></a></li>
                             @endif
                         </ul>
                     </div>
                 </div>
                 <div class="col-9 col-sm-auto">
                     <div class="header-logo"><a href="{{ route('home') }}"><img
-                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio" id="webLogo"></a>
+                                src="{{ asset('assets/img/logo-mix.png') }}" alt="Allure Makeup Studio"
+                                id="webLogo"></a>
                     </div>
                 </div>
                 <div class="col col-sm-auto text-end">
