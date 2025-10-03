@@ -50,7 +50,7 @@ class AppServiceProvider extends ServiceProvider
 
         // Share active policies with all views
         View::composer('*', function ($view) {
-            $view->with('policies', Policy::where('is_active', 1)->latest('id')->get());
+            $view->with('policies', Policy::where('is_active', 1)->get());
         });
     }
 }
