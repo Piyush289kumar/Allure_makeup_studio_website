@@ -37,24 +37,24 @@
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
                         <div class="widget">
-                            <h3 class="widget_title">Recent Posts</h3>
+                            <h3 class="widget_title">Our Services</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($recentBlogs as $recent)
                                     <div class="recent-post">
                                         <div class="media-img">
-                                            <a href="{{ route('blog.details', $recent->slug) }}">
+                                            <a href="{{ route('service.details', $recent->slug) }}">
                                                 <img src="{{ asset('storage/' . $recent->image) }}"
                                                     alt="{{ $recent->title }}">
                                             </a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="post-title">
-                                                <a class="text-inherit" href="{{ route('blog.details', $recent->slug) }}">
+                                                <a class="text-inherit" href="{{ route('service.details', $recent->slug) }}">
                                                     {{ $recent->title }}
                                                 </a>
                                             </h4>
                                             <div class="recent-post-meta">
-                                                <a href="{{ route('blog.details', $recent->slug) }}">
+                                                <a href="{{ route('service.details', $recent->slug) }}">
                                                     <i class="fal fa-calendar-alt"></i>
                                                     {{ $recent->created_at->format('M d, Y') }}
                                                 </a>

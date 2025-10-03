@@ -22,14 +22,14 @@ class FrontendController extends Controller
 
     public function services()
     {
-         // Fetch active blogs with pagination (5 per page)
+        // Fetch active blogs with pagination (5 per page)
         $blogLists = Blog::where('is_active', 1)->latest('id')->paginate(5);
 
         return view('layouts.pages.services', compact('blogLists'));
     }
 
 
-    
+
     public function contact()
     {
         return view('layouts.pages.contactus');
@@ -92,9 +92,8 @@ class FrontendController extends Controller
         $blog = Service::where('slug', $slug)->where('is_active', 1)->firstOrFail();
 
         // Optional: fetch recent blogs for sidebar
-        $recentBlogs = Blog::where('is_active', 1)
+        $recentBlogs = Service::where('is_active', 1)
             ->latest('id')
-            ->take(5)
             ->get();
 
         return view('layouts.pages.singleService', compact('blog', 'recentBlogs'));
