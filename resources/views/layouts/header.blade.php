@@ -61,8 +61,9 @@
                                             class="fab fa-instagram"></i></a></li>
                             @endif
                             @if (!empty($appConfig->youtube_link))
-                                <li><a href="{{ $appConfig->youtube_link }}" target="_blank"><i
-                                            class="fab fa-youtube"></i></a></li>
+                                <li><a href="{{ $appConfig->youtube_link }}" target="_blank">
+                                <i class="fas fa-map-marker-alt"></i>
+                                </a></li>
                             @endif
                         </ul>
                     </div>
