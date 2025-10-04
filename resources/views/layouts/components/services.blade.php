@@ -23,9 +23,9 @@
                                     {{-- <div class="blog-text text-white" style="color: #fff;">{!! $service->body !!}</div> --}}
                                 </div>
                             </a>
-                            <div class="trends-actions"><span class="price"></span> <a
+                            {{-- <div class="trends-actions"><span class="price"></span> <a
                                     href="{{ route('service.details', $service->slug) }}" class="icon-btn"><i
-                                        class="fas fa-chevron-right"></i></a></div>
+                                        class="fas fa-chevron-right"></i></a></div> --}}
                         </div>
                     </div>
                 </div>

@@ -22,9 +22,9 @@
                         <div class="col-lg-6 col-xl-5 align-self-center order-1 order-lg-0">
                             <div class="blog-content">
                                 <div class="meta-box">
-                                    <a href="{{ route('service.details', $blog->slug) }}">
+                                    {{-- <a href="{{ route('service.details', $blog->slug) }}">
                                         <i class="far fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}
-                                    </a>
+                                    </a> --}}
                                     {{-- Optionally show comment count if available --}}
                                     {{-- <a href="#"><i class="fas fa-comment-alt"></i>{{ $blog->comments_count ?? 0 }}</a> --}}
                                 </div>
