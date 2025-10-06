@@ -1,6 +1,5 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,23 +11,19 @@
             {{ config('app.name') }}
         @endif
     </title>
-    {{-- <meta name="author" content="Vecuro">
-    <meta name="description" content="Allure Makeup Studio - Barber and Salon HTML Template">
-    <meta name="keywords" content="Allure Makeup Studio - Barber and Salon HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW"> --}}
+    <meta name="author" content="Vipprow">
+    <meta name="description" content="Allure Makeup Studio">
+    <meta name="keywords" content="Allure Makeup Studio">
+    {{-- <meta name="robots" content="INDEX,FOLLOW"> --}}
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     {{-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> --}}
     {{-- <link
         href="https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans:wght@400;600&family=Syne:wght@600;700&display=swap"
         rel="stylesheet"> --}}
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
-
-
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
@@ -43,10 +38,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
-    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    {{-- <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}"> --}}
+    {{-- <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> --}}
     <link rel="stylesheet" href="{{ asset('assets/css/app.min.css') }}">
     {{-- <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">     --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css"
@@ -54,7 +49,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
-
 <body>
     @include('layouts.header')
     <main>
@@ -62,5 +56,4 @@
     </main>
     @include('layouts.footer')
 </body>
-
 </html>
