@@ -9,7 +9,7 @@
                              class="sub-title text-white">Your Glow Begins Here</span>
                      </div>
                      <div class="col-lg-8 col-xl-11 pt-2 pt-xl-4">
-                         <button type="submit" class="vs-btn">Contact Us</button>
+                         <a href="{{ route('contact') }}" class="vs-btn">Contact Us</a>
                      </div>
                  </div>
              </div>

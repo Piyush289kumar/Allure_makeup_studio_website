@@ -3,9 +3,9 @@
     </div> --}}
 <div class="vs-menu-wrapper">
     <div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fas fa-times"></i></button>
-        <div class="mobile-logo"><a href="{{ route('home') }}">
+        <div class="mobile-logo bg-dark"><a href="{{ route('home') }}">
                 <img src="{{ asset('assets/img/logo-mobile.png') }}" alt="Allure Makeup Studio"
-                    style="width: 20px !important;"></a>
+                    style="width: 200px !important;"></a>
         </div>
         <div class="vs-mobile-menu">
             <ul>
@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<div class="header-top-style2 bg-black d-none d-md-block">
+<div class="header-top-style2 d-none d-md-block" style="background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);">
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-auto"><button type="button" class="hamburger-btn vs-menu-toggle"><span class="bar"><span
@@ -84,7 +84,7 @@
                     </button>
                     <div class="header-btn d-none d-md-block"><a href="{{ route('contact') }}" class="text-white">
                             {{-- <i class="fal fa-map-marker-alt"></i> --}}
-                        </a> <a href="{{ route('contact') }}" class="vs-btn outline-white">Book Now</a></div>
+                        </a> <a href="{{ route('contact') }}" class="vs-btn">Book Now</a></div>
                 </div>
             </div>
         </div>

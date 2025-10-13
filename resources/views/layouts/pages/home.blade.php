@@ -24,9 +24,12 @@
                     Luxury salon services + expert on-location teams for weddings, events & shoots.</p>
                 @if ($appConfig->whatsapp_link)
                     <a class="ls-l ls-hide-tablet ls-hide-phone" href="{{ $appConfig->whatsapp_link }}" target="_self"
-                        data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
-                            style="top:568px; left:360px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:40px; padding-bottom:0px; padding-left:40px; font-family:Onest; font-size:18px; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:60px;"
-                            class="">Book Outdoor Team</span></a>
+                        data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;">
+                        <span
+                            style="top:568px; left:360px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:40px; padding-bottom:0px; padding-left:40px; font-family:Onest; font-size:18px; background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d); color:#fff; border-radius:9999px; line-height:60px; transition:all 0.3s ease;">
+                            Book Outdoor Team
+                        </span>
+                    </a>
                 @endif
                 {{-- <img width="574" height="555"
                     src="assets/img/hero/hero-2-shape-1.png" class="ls-l ls-hide-tablet ls-hide-phone" alt=""
@@ -53,7 +56,7 @@
                 @if ($appConfig->whatsapp_link)
                     <a class="ls-l ls-hide-desktop ls-hide-phone" href="{{ $appConfig->whatsapp_link }}" target="_self"
                         data-ls="offsetxin:-100; durationin:1500; delayin:1200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
-                            style="top:600px; left:180px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:60px; padding-bottom:0px; padding-left:60px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:100px; font-size:30px;"
+                            style="top:600px; left:180px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:60px; padding-bottom:0px; padding-left:60px; font-family:Onest; background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);  color:#fff; border-radius:9999px; line-height:100px; font-size:30px;"
                             class="">BOOK AN APPOINTMENT</span></a>
                 @endif
                 {{-- <img width="574" height="555"
@@ -71,15 +74,15 @@
                     class="ls-l ls-hide-desktop ls-hide-tablet"
                     data-ls="offsetxin:-100; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     and Felt</h1>
-                       @if ($appConfig->whatsapp_link)
-                             <a class="ls-l ls-hide-desktop ls-hide-tablet"  href="{{ $appConfig->whatsapp_link }}" target="_self"
-                    data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
-                        style="top:500px; left:150px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:80px; padding-bottom:0px; padding-left:80px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:130px; font-size:50px;"
-                        class="">BOOK AN APPOINTMENT</span></a>
+                @if ($appConfig->whatsapp_link)
+                    <a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{ $appConfig->whatsapp_link }}" target="_self"
+                        data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
+                            style="top:500px; left:150px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:80px; padding-bottom:0px; padding-left:80px; font-family:Onest;background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);  color:#fff; border-radius:9999px; line-height:130px; font-size:50px;"
+                            class="">BOOK AN APPOINTMENT</span></a>
                 @endif
-                    <a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{ route('contact') }}" target="_self"
+                <a class="ls-l ls-hide-desktop ls-hide-tablet" href="{{ route('contact') }}" target="_self"
                     data-ls="offsetxin:-100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint; hover:true; hovereasingin:easeOutQuint; hoverbgcolor:#fff; hovercolor:#000;"><span
-                        style="top:500px; left:150px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:80px; padding-bottom:0px; padding-left:80px; font-family:Onest; background-color:#f8c73d; color:#fff; border-radius:9999px; line-height:130px; font-size:50px;"
+                        style="top:500px; left:150px; text-align:center; font-weight:600; background-size:inherit; background-position:inherit; padding-top:0px; padding-right:80px; padding-bottom:0px; padding-left:80px; font-family:Onest;background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);  color:#fff; border-radius:9999px; line-height:130px; font-size:50px;"
                         class="">BOOK AN APPOINTMENT</span></a>
             </div>
         </div>

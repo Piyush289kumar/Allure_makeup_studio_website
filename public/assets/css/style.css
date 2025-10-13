@@ -1174,7 +1174,8 @@ textarea.form-control.is-invalid {
     font-size: 16px;
     font-weight: 600;
     padding: 22px 52px;
-    background-color: var(--theme-color);
+    /* background-color: var(--theme-color); */
+    background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);
     color: var(--white-color);
     border-radius: 9999px;
     text-align: center;
@@ -1192,7 +1193,8 @@ textarea.form-control.is-invalid {
     content: "";
     position: absolute;
     z-index: -1;
-    background-color: var(--title-color);
+    /* background-color: var(--title-color); */
+    background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);
     left: auto;
     right: 0;
     top: 0;
@@ -1432,7 +1434,8 @@ button.nav-link {
 
 .scroll-btn i {
     display: inline-block;
-    background-color: var(--theme-color);
+    /* background-color: var(--theme-color); */
+    background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);
     color: var(--white-color);
     text-align: center;
     font-size: 16px;
@@ -7704,7 +7707,9 @@ a.ls-gui-element.ls-nav-next:hover:before {
 
 .vs-social.style2 a,
 .vs-social.social-white a {
-    background-color: var(--theme-color);
+    /* background-color: var(--theme-color); */
+    background:linear-gradient(to right, #b46a11, #d68d15, #e7ac18, #f8c73d);
+
     color: var(--white-color);
 }
 
