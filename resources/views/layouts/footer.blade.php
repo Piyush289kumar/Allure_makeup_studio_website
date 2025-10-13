@@ -64,7 +64,7 @@
                 </div>
 
 
-                <p class="text-white fw-medium mb-0 mt-5">Copyright &copy; </i> 2025 <a class="text-white"
+                <p class="text-white fw-medium mb-0 mt-2">Copyright &copy; </i> 2025 <a class="text-white"
                         href="{{ route('home') }}"></a> - All rights reserved by <a class="text-white">Allure Makeup
                         Studio</a>.</p>
                 <p class="text-white fw-medium mb-0">Developed by </i><a class="text-white"
