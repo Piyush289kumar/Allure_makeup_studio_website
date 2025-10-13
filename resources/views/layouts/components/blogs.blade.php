@@ -73,7 +73,7 @@
     <div class="container">
         <div class="title-area text-center">
             <div class="sec-icon"><img src="assets/img/icon/sec-icon.png" alt="Section Title"></div>
-            <span class="sub-title">Articles & News</span>
+            <span class="sub-title">Blogs & News</span>
         </div>
 
         <div class="row gx-lg-0 align-items-start">
@@ -89,10 +89,10 @@
                             </a>
                         </div>
                         <div class="blog-content">
-                            <div class="post-author">
+                            {{-- <div class="post-author">
                                 Posted By 
                                 <a href="#">{{ $blog->category?->name ?? 'Uncategorized' }}</a>
-                            </div>
+                            </div> --}}
                             <h3 class="blog-title">
                                 <a href="{{ route('blog.details', $blog->slug) }}">{{ $blog->title }}</a>
                             </h3>
