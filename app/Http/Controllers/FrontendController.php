@@ -95,4 +95,9 @@ class FrontendController extends Controller
         return view('layouts.pages.singleService', compact('blog', 'recentBlogs'));
     }
 
+
+    public function qr(){
+        return view('layouts.pages.qr');
+    }
+
 }
